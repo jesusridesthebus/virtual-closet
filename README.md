@@ -1,68 +1,50 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Digital Closet
 
-## Available Scripts
+#### By Liz Kelley
 
-In the project directory, you can run:
+### This app will allow the user to catalog & keep track of their wardrobe.
 
-### `npm start`
+* Store clothing items with different categories attached -- for example, a white t-shirt could be categorized as white, t-shirt, casual, summer, etc.
+* Search for items by a single category (such as "white" or "summer" -- accomplished using drop downs)
+* User will be able to add and delete items
+* User's item edit function will allow them to edit entries
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#### Stretch Goals
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+* Add user login
+* Add the ability to search by multiple categories (such as "t-shirt" and "casual" -- accomplished using checkboxes) that would return only items that match all search terms
+* Store full outfits for the future week/time period, keep track of what you have worn, plan for future events so you don't wear the same thing to two weddings in a row, for example
+* Have an option that tells you when you haven't worn something in a specified period of time (a digital Marie Kondo)
+* An option that tells you to get rid of a clothing item if you catalog a new item (one in, one out)
+* Add and store pictures of each item
 
-### `npm test`
+#### Technologies Used
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* React
+* CSS
+* Sass
+* Firebase
 
-### `npm run build`
+<hr>
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## User Stories
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+* As a user, I want to be able to add clothing items to a database
+* As a user, I want to be able to add categories to each clothing item
+* As a user, I want to be able to search for items by category
+* As a user, I want to be able to come back and edit clothing items after I have added them
+<hr>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### User Stories -- stretch goals
 
-### `npm run eject`
+* As a user, I want to be able to login so I can access my closet and feel secure about its contents being saved
+* As a user, I want to be able to search for clothing items by multiple categories
+* As a user, I want to be able to keep track of what I have worn
+* As a user, I want to be able to store outfits for the future
+* As a user, I want the app to tell me when I have not worn an item of clothing in a specified time period
+* As a user, I want to have the accountability to get rid of one item of clothing for every item that I add
+* As a user, I want to be able to upload and store pictures of each item
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<hr>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+![User Interface](./digital-closet-mock.jpg)
